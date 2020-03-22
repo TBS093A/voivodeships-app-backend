@@ -1,0 +1,11 @@
+/home/oem/Dokumenty/Projects/KPbiznesowe/wojewodztwa-REST/src/main/java/REST/demo/utils/PageableRequest.java
+/home/oem/Dokumenty/Projects/KPbiznesowe/wojewodztwa-REST/src/main/java/REST/demo/domains/province/Province.java
+/home/oem/Dokumenty/Projects/KPbiznesowe/wojewodztwa-REST/src/main/java/REST/demo/domains/province/ProvinceRepository.java
+/home/oem/Dokumenty/Projects/KPbiznesowe/wojewodztwa-REST/src/main/java/REST/demo/wojewodztwaRESTApplication.java
+/home/oem/Dokumenty/Projects/KPbiznesowe/wojewodztwa-REST/src/main/java/REST/demo/domains/province/dto/ProvinceApi.java
+/home/oem/Dokumenty/Projects/KPbiznesowe/wojewodztwa-REST/src/main/java/REST/demo/controllers/ProvinceController.java
+/home/oem/Dokumenty/Projects/KPbiznesowe/wojewodztwa-REST/src/main/java/REST/demo/config/SwaggerConfig.java
+/home/oem/Dokumenty/Projects/KPbiznesowe/wojewodztwa-REST/src/main/java/REST/demo/utils/Mapper.java
+/home/oem/Dokumenty/Projects/KPbiznesowe/wojewodztwa-REST/src/main/java/REST/demo/config/WebSecurityConfig.java
+/home/oem/Dokumenty/Projects/KPbiznesowe/wojewodztwa-REST/src/main/java/REST/demo/domains/province/ProvinceService.java
+/home/oem/Dokumenty/Projects/KPbiznesowe/wojewodztwa-REST/src/main/java/REST/demo/domains/province/dto/ProvinceDTO.java

@@ -1,0 +1,13 @@
+REST/demo/wojewodztwaRESTApplication.class
+REST/demo/domains/province/ProvinceRepository.class
+REST/demo/config/SwaggerConfig.class
+REST/demo/domains/province/dto/ProvinceDTO.class
+REST/demo/domains/province/dto/ProvinceApi.class
+REST/demo/controllers/ProvinceController.class
+REST/demo/wojewodztwaRESTApplication$1.class
+REST/demo/config/WebSecurityConfig.class
+REST/demo/utils/PageableRequest.class
+REST/demo/domains/province/Province.class
+REST/demo/utils/Mapper.class
+REST/demo/domains/province/dto/ProvinceDTO$ProvinceDTOBuilder.class
+REST/demo/domains/province/ProvinceService.class
