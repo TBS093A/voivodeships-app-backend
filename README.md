@@ -1,4 +1,4 @@
-### Dokumentacja – REST – województwa – Kamil Żuk
+# Dokumentacja – REST – województwa – Kamil Żuk
 
 Na początku należy zmienić adres / użytkownika / hasło do bazy danych w application.properties ( ./src/main/resources/ ).
 
@@ -17,15 +17,18 @@ Hasło: admin
 
 Po zalogowaniu mamy w zasadzie dwa kontrolery - „/cities” oraz „/provinces”
 
-## Zapytania - przykłady
+### Zapytania - przykłady
 
 Projekt wystarczy tylko rozpakować, jest w zasadzie gotowy do użytku. Testy REST przeprowadzałem przez konsolę (przez program httpie).
+
 ```bash
 http GET http://localhost:9090/cities/province/1 page=”0” size=”5”
 ```
+
 Parametr ‘size’ ustala podział w podanej dla tego parametru liczbie, która z kolei oznacza ile elementów przypada na jedną stronę (zapytanie pod paginację). Parametr ‘page’ określa którą ze stron zgodnie z podziałem w ‘size’ chcemy pobrać. W tym przypadku zostanie zwróconych 5 pierwszych elementów z tabeli.
 
 Jest to nietypowe zapytanie, reszta jest dokładnie udokumentowana w nakładce swaggera pod adresem
+
 ```bash
 http://localhost:9090/swagger-ui.html
 ```
