@@ -1,4 +1,4 @@
-# Dokumentacja – REST – województwa – Kamil Żuk
+# REST – województwa
 
 Na początku należy zmienić adres / użytkownika / hasło do bazy danych w application.properties ( ./src/main/resources/ ).
 
