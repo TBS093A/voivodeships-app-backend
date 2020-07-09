@@ -25,10 +25,12 @@ public class ProvinceController {
         this.provinceService = provinceService;
     }
 
-    @GetMapping("/")
+    @GetMapping("/{page}/{size}")
     public ResponseEntity<List<ProvinceDTO>> getAllProvinces(
-            @RequestBody PageableRequest pageableRequest
+            @PathVariable int page,
+            @PathVariable int size
             ) {
+        PageableRequest pageableRequest = new PageableRequest(page, size);
         return ResponseEntity.ok(provinceService.getAll(pageableRequest));
     }
 

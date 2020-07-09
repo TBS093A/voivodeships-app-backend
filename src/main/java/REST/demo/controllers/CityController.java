@@ -26,18 +26,22 @@ public class CityController {
         this.cityService = cityService;
     }
 
-    @GetMapping("/")
+    @GetMapping("/{page}/{size}")
     public ResponseEntity<List<CityDTO>> getAllCities(
-            @RequestBody PageableRequest pageableRequest
+            @PathVariable int page,
+            @PathVariable int size
     ) {
+        PageableRequest pageableRequest = new PageableRequest(page, size);
         return ResponseEntity.ok(cityService.getAll(pageableRequest));
     }
 
-    @GetMapping("/province/{provinceId}")
+    @GetMapping("/province/{provinceId}/{page}/{size}")
     public ResponseEntity<List<CityDTO>> getByProvince(
             @PathVariable Long provinceId,
-            @RequestBody PageableRequest pageableRequest
+            @PathVariable int page,
+            @PathVariable int size
     ) throws NotFoundException {
+        PageableRequest pageableRequest = new PageableRequest(page, size);
         return ResponseEntity.ok(cityService.getByProvince(pageableRequest, provinceId));
     }
 
